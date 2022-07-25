@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1820414628487638174}
   - component: {fileID: 966703516688219208}
   - component: {fileID: -6961356421217469466}
+  - component: {fileID: 5571332107699900243}
   m_Layer: 0
   m_Name: Shengcheng
   m_TagString: Untagged
@@ -26,9 +27,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3231639387726964674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 60, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 251819164825034751}
   m_Father: {fileID: 0}
@@ -62,6 +63,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_zoom: {fileID: 251819164825034751}
+--- !u!114 &5571332107699900243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3231639387726964674}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed93815948594f51a05f39a0ce57b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8026523986315085256
 PrefabInstance:
   m_ObjectHideFlags: 0

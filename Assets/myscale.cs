@@ -16,13 +16,29 @@ public class myscale : MonoBehaviour
         //m_zoom = GameObject.Find("XR Origin/Camera Offset/Main Camera").GetComponent<Transform>();
     }
 
+
+    //update 执行是完全依据你当前电脑帧数
+
+    //0.02s按下键盘放大招
+    //放大招函数
+    public void FixedUpdate() {
+        // 每秒只执行25次
+        //0.04s
+        //0s开始
+        //0.08s
+        //0，06s时候按下大召见
+
+       
+    }
+
+
     // Update is called once per frame
     void Update()
     {
 
-
+        //100帧率，减小概率
         //m_zoom.position += m_zoom.forward.normalized * 1;
-       //m_zoom.localScale = new Vector3(1,1,1);
+        //m_zoom.localScale = new Vector3(1,1,1);
         
         if (Input.touchCount == 2)
         {
